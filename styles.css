@@ -1,0 +1,34 @@
+.parent {
+  /* padding creates space outside content */
+  padding: 10px;
+  /* display: flex makes all items fit in container */
+  display: flex;
+  /* establishes "horizontal(main) axis", direction items are in container */
+  flex-direction: column;
+}
+
+.header {
+  /* border inputs a line around your div */
+  /* border: 3px solid orange; */
+  padding: 10px;
+  /* margin creates space around elements  */
+  margin: 10px;
+  display: flex;
+}
+
+.categories {
+  /* border: 3px solid orange; */
+  padding: 5px;
+  margin: 10px;
+}
+
+.icon img {
+  /* border: 3px solid green; */
+  flex: 1;
+}
+
+.information {
+  padding: 10px;
+  margin: 10px;
+  flex: 1;
+}
